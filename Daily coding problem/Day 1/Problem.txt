@@ -1,0 +1,21 @@
+The problem at hand is to merge K sorted lists, each with N elements, into a single sorted list. In simpler terms, you are given K lists, and you need to combine them into one list while maintaining a sorted order.
+
+Input:
+
+K sorted lists, where each list contains N elements.
+Output:
+
+A new list that includes all elements from the input lists, sorted in ascending
+order.
+Example Input:
+[[10, 15, 30], [12, 15, 20], [17, 20, 32]]
+
+Example Output:
+[10, 12, 15, 15, 17, 20, 20, 30, 32]
+
+The tutorial outlines a systematic approach for solving this problem,
+starting with understanding an example, discussing possible brute force
+solutions, proposing a more efficient solution using a heap data structure,
+providing pseudocode for the efficient solution, writing the actual code,
+suggesting various test cases, and encouraging consideration of alternative
+solutions.
