@@ -1,0 +1,25 @@
+You are given an array of integers containing both positive and negative
+numbers, including duplicates. Your task is to find the lowest positive integer
+(greater than 0) that does not exist in the array. You should solve this problem
+in linear time and with constant space complexity. Additionally, you are allowed
+to modify the input array in-place.
+
+Input:
+
+An array of integers, where the length of the array is n (1 ≤ n ≤ 10^5).
+Output:
+
+The lowest positive integer that does not exist in the array.
+Examples:
+
+For the input [3, 4, -1, 1], the function should return 2, as the lowest positive
+ integer that does not exist in the array is 2.
+
+For the input [1, 2, 0], the function should return 3, as the lowest positive
+integer that does not exist in the array is 3.
+
+Note:
+
+You should modify the input array in-place to achieve constant space complexity.
+The solution should run in linear time, meaning that the time complexity should
+be O(n), where n is the length of the input array.
