@@ -1,0 +1,25 @@
+Problem Statement:
+
+You are given an implementation of the cons function, which takes two arguments
+a and b and returns a pair. Additionally, you are provided with the car and cdr
+ functions, but they are incomplete. Your task is to implement the car and cdr
+ functions to extract the first and last elements of the pair, respectively.
+
+Function Definitions:
+
+def cons(a, b): Constructs a pair of elements a and b and returns a function
+pair that can be used to retrieve these elements.
+
+def car(pair): Returns the first element of the pair.
+
+def cdr(pair): Returns the second element of the pair.
+
+Examples:
+
+For the pair constructed with cons(3, 4), car(cons(3, 4)) should return 3,
+and cdr(cons(3, 4)) should return 4.
+
+Note:
+You need to implement the car and cdr functions such that they work with the
+cons function provided. The pair is constructed using cons, and you should use
+ the provided functions to extract its elements.
