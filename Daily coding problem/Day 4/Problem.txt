@@ -1,0 +1,41 @@
+**Problem Statement:**
+
+You are tasked with implementing an XOR linked list, which is a more
+memory-efficient version of a doubly linked list. Instead of each node
+holding references to both the next and previous nodes, it holds a single field
+named `both`. This field stores the XOR of the memory addresses of the next
+and previous nodes.
+
+You need to implement the following operations:
+
+1. `add(element)`: Adds a new node containing `element` to the end of the XOR
+linked list.
+
+2. `get(index)`: Returns the node at the specified `index`.
+
+You can assume that you have access to two functions:
+
+- `get_pointer(node)`: Converts a node into a memory address.
+- `dereference_pointer(address)`: Converts a memory address back into a node.
+
+**Note:**
+
+- In languages like Python, where direct memory manipulation is not available,
+ you can use the provided `get_pointer` and `dereference_pointer` functions to
+ work with memory addresses.
+
+**Example:**
+
+```python
+xor_list = XORLinkedList()
+
+xor_list.add(10)
+xor_list.add(20)
+xor_list.add(30)
+
+node_at_index_1 = xor_list.get(1)
+print(node_at_index_1.element)  # Output: 20
+```
+
+In this example, an XOR linked list is created, elements 10, 20, and 30 are
+added, and then the node at index 1 is retrieved and its element is printed.
