@@ -1,0 +1,34 @@
+The problem can be framed as follows:
+
+**Problem Statement:**
+
+Given an encoded message consisting of digits, where each digit
+corresponds to a letter (e.g., '1' corresponds to 'a', '2' corresponds to
+'b', ..., '26' corresponds to 'z'), you need to count the number of ways the
+ encoded message can be decoded into valid character sequences.
+
+**Input:**
+
+- A string representing the encoded message. The input message is guaranteed
+to be decodable and does not contain invalid characters like '0'.
+
+**Output:**
+
+- An integer representing the number of possible decoding.
+
+**Example:**
+
+```python
+Input: '111'
+Output: 3
+Explanation: The encoded message '111' can be decoded as
+'aaa', 'ka', and 'ak'.
+```
+
+**Note:**
+
+- You can assume that the messages are decodable, meaning that there
+is at least one valid way to decode the message.
+
+- The mapping of digits to letters is provided: '1' corresponds to 'a', '2'
+corresponds to 'b', and so on, up to '26' corresponding to 'z'.
