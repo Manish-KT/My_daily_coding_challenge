@@ -1,0 +1,35 @@
+Problem Statement:
+
+You are given the root of a binary tree. A unival tree, which stands for "universal value" tree,
+is a tree where all nodes under it have the same value. Your task is to count the number of unival
+subtrees in the given binary tree.
+
+Input:
+
+The root of a binary tree.
+Output:
+
+An integer representing the count of unival subtrees in the binary tree.
+Example:
+
+Input:
+    0
+   / \
+  1   0
+     / \
+    1   0
+   / \
+  1   1
+
+Output: 5
+In the example, the binary tree has 5 unival subtrees, each of which contains nodes with the same value:
+
+The root node with value 0.
+The left subtree with a single node having value 1.
+The right subtree with a single node having value 0.
+The subtree rooted at the second left node with a single node having value 1.
+The subtree rooted at the bottom left node with a single node having value 1.
+
+Note:
+The input binary tree is not necessarily a binary search tree (BST).
+The value of nodes in the tree can be of any data type (e.g., integers, characters, or custom objects).
